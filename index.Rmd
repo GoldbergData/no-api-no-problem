@@ -2,7 +2,7 @@
 title: "No APIs, No Problem"
 subtitle: "<span style=font-size:50%>Automating content delivery with R and Excel</span> <hr>"
 author: "<br>Joshua Goldberg | Hasib Neaz<br><i class='fab fa-twitter' style='color:#6CADDE'></i><i class='fab fa-github'></i> @GoldbergData"
-date: 
+date: "slides at [goldbergdata.github.io/no-api-no-problem](https://goldbergdata.github.io/no-api-no-problem/)"
 output:
   xaringan::moon_reader:
     css: [default, style.css, robot-fonts]
@@ -32,6 +32,8 @@ library(DT)
 Sys.setenv(JAVA_HOME = "C:\\Program Files\\Java\\jdk1.8.0_102")
 library(XLConnect)
 library(sendmailR)
+
+xaringan::decktape(file = "index.html", output = "index.pdf")
 ```
 
 
