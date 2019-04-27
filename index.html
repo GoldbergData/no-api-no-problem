@@ -277,7 +277,7 @@ class: middle center
 ```r
 subject = "Sales State Coverage Report"
 
-msg &lt;- paste0(
+message &lt;- paste0(
   '&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
@@ -311,7 +311,7 @@ send.mail(
   from = "user@domain.com",
   to = "user@domain.com",
   subject = subject,
-  body = msg,
+  body = message,
   html = TRUE,
   smtp = list(
     host.name = "smtp.gmail.com",

@@ -358,7 +358,7 @@ class: middle center
 ```{r eval=FALSE}
 subject = "Sales State Coverage Report"
 
-msg <- paste0(
+message <- paste0(
   '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -391,7 +391,7 @@ send.mail(
   from = "user@domain.com",
   to = "user@domain.com",
   subject = subject,
-  body = msg,
+  body = message,
   html = TRUE,
   smtp = list(
     host.name = "smtp.gmail.com",
