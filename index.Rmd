@@ -1,8 +1,8 @@
 ---
-title: "No APIs, No Problem"
+title: "No API, No Problem"
 subtitle: "<span style=font-size:50%>Automating content delivery with R and Excel</span> <hr>"
 author: "<br>Joshua Goldberg | Hasib Neaz<br><i class='fab fa-twitter' style='color:#6CADDE'></i><i class='fab fa-github'></i> @GoldbergData"
-date: "slides at [goldbergdata.github.io/no-api-no-problem](https://goldbergdata.github.io/no-api-no-problem/)"
+date: "slides at [github.com/GoldbergData/no-api-no-problem](https://github.com/GoldbergData/no-api-no-problem)"
 output:
   xaringan::moon_reader:
     css: [default, style.css, robot-fonts]
@@ -36,12 +36,27 @@ library(sendmailR)
 xaringan::decktape(file = "index.html", output = "index.pdf")
 ```
 
+# We are in the future...
 
-<img src="img/excel.gif" width="125%" height="125%" align="center"/>
+<iframe width="683" height="414" src="https://www.youtube.com/embed/tlThdr3O5Qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-# Your boss wants 49 Excel sheets, but why?
+class: center, middle
+
+# So we can move on, right?
+
+<img src="img/excel.gif" width="100%" height="100%" align="center"/>
+
+---
+
+class: center, middle
+
+<img src="img/kanye.gif" width="80%" height="80%" align="center"/>
+
+---
+
+# Your boss wants 49 Excel sheets
 
 <img src="img/office.gif" width="125%" height="125%" align="center"/>
 
